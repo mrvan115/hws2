@@ -1,0 +1,47 @@
+.input:focus {
+}
+
+.input {
+    border: 1px solid #D1D1D1;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    height: 36px;
+    width: 372px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.superInput {
+}
+
+.errorInput {
+    padding: 8px 0 8px 12px;
+    height: 36px;
+    width: 372px;
+    border-radius: 5px;
+    border: 1px solid #cc0000;
+    margin-right: 15px;
+    margin-bottom: 7px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.errorInput:focus-visible {
+    outline: 1px solid #cc0000;
+}
+
+.error {
+    color: #cc0000;
+    margin: 0 0 5px 0;
+}
