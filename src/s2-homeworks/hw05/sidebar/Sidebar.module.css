@@ -1,0 +1,53 @@
+.sidebar {
+    position: absolute;
+    display: none;
+}
+
+.sidebar.open {
+    display: block;
+    width: 317px;
+    height: 100%;
+    background: #ffffff;
+    box-shadow: 0px 1px 2px rgba(29, 33, 38, 0.10);
+    z-index: 1;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.30;
+    background: black
+}
+
+.nav {
+    margin: 25px 0 0 0;
+}
+
+.nav a {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 0 35px 70px;
+}
+
+.nav a:hover {
+    color: #0059B2;
+    text-decoration: underline;
+}
+
+.nav a.active {
+    color: #58ACFF;
+}
+.close {
+    position: relative;
+}
+
+.close img {
+    position: absolute;
+    left: 270px;
+    color: #FFFFFF;
+}
